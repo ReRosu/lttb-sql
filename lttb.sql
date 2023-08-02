@@ -74,7 +74,7 @@ begin
 	max_area_point := not_sampled[1];
 	sampled := array_append(sampled, not_sampled[1]);
 
-	for i in 0..n_out-2
+	for i in 1..n_out-2
 	begin loop
 		avg_x := 0;
 		avg_y := 0;
